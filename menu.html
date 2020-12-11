@@ -1,0 +1,421 @@
+
+<html>
+<head>
+	<title>this is sammple website</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+<script type="text/javascript" src="jsscript.js"></script>
+
+
+</head>
+<body>
+
+<!--<div class="fullwrap">
+	
+<div class="wrap header_topmenu_section">
+
+<div class="header_top_menu">
+	<ul>
+		
+
+		<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+
+
+	</ul>
+	
+</div>
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+<div class="fullwrap">
+	
+<div class="wrap header_section">
+
+<div class="header_cont">
+	<h1>Decent</h1>
+	<p>Help Everybody to find your books</p>
+</div>
+
+
+
+</div>
+
+
+</div>
+
+
+-->
+
+
+
+
+<div class="fullwrap ">
+	
+<div class="wrap">
+
+<input type="checkbox" name="" id="search_box_show">
+<div class="search_input">
+	<form>
+		
+		<input type="text" name="">
+
+		<button type="submit"><img src="searchicon.png" id="search_icon"></button>
+	</form>
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+<div class="fullwrap main_section">
+
+	
+<div class="wrap table_sort_section">
+
+
+<div class="table_search_box">
+	<h3>Search book</h3>
+	<form><input type="text" name="" placeholder="Type book's name"  id="table_search_input"></form>
+</div>
+
+
+
+<div class="sorting_order_section">
+	
+<h3>Sort table</h3>
+
+
+<div class="sorting_order_type">
+<input type="checkbox" name="" id="showNewComment"><label for="showNewComment">Show new comment</label><br>	
+<input type="checkbox" name="" id="sortByName"><label for="sortByName">Sort by name</label><br>
+<input type="checkbox" name="" id="sortByComment"><label for="sortByComment">Sort by comment</label><br>
+<input type="checkbox" name="" id="sortByAuthor"><label for="sortByAuthor">Sort by author</label><br>
+<input type="checkbox" name="" id="sortByPrice"><label for="sortByPrice">Sort by price</label><br>	
+
+
+</div>
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+	
+<div class="wrap table_section_wrap">
+	<div class="table_section_heading">
+		
+
+<h2>Your books</h2>	 <button  id="RefreshButton">Refresh table</button>
+	</div>
+
+<div class="table_desc_section">
+	
+<div class="table_desc_box">
+	
+<p>comment on</p>
+<p>Total</p>
+<h3>15</h3>
+<p>Books</p>
+
+</div>
+
+
+
+	
+<div class="table_desc_box">
+	
+<p>New comment on</p>
+<p>Total</p>
+<h3>5</h3>
+<p>Books</p>
+
+</div>
+
+
+
+
+	
+<div class="table_desc_box">
+<p>Collected</p>
+<p>Total</p>
+<h3>35</h3>
+<p>Books</p>
+
+</div>
+
+
+<div class="table_desc_box">
+
+<p>Total</p>
+<p>Books on</p>
+<h3>35</h3>
+<p>Subject</p>
+
+</div>
+
+
+<div class="table_desc_box">
+
+<p>Total</p>
+<p>Books on</p>
+<h3>35</h3>
+<p>classes</p>
+
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+
+
+<table class="table_cont" id="bookTable" ><!--here coding for table creating start -->
+	
+
+
+
+<thead>
+	<th>Title</th>
+<th>Price</th>
+<th>Author</th>
+<th colspan="2">Operation</th>
+<th><p>New request</p></th>
+</thead>
+
+
+
+<tbody>
+<tr>
+	
+<td>harry potter</td>
+<td>jk rawling</td>
+<td>800</td>
+<td><a href="">Update</a></td>
+<td><a href="">Delete</a></td>
+<td><a href="">0</a></td>
+</tr>
+
+
+<tr>
+<td>Goblet Of Fire</td>
+<td>jk rawling</td>
+<td>900</td>
+<td><a href="">Update</a></td>
+<td><a href="">Delete</a></td>
+<td><a href="">3</a></td>
+</tr>
+
+
+<tr>
+<td>Deathly Hallown</td>
+<td>jerom kathlean</td>
+<td>2000</td>
+<td><a href="">Update</a></td>
+<td><a href="">Delete</a></td>
+<td><a href="">1</a></td>
+</tr>
+
+
+<tr>
+<td>Prison of azkaban</td>
+<td>kathlean rawling</td>
+<td>2000</td>
+<td><a href="">Update</a></td>
+<td><a href="">Delete</a></td>
+<td><a href="">0</a></td>
+</tr>
+
+
+
+<tr>
+<td>Prison Escape</td>
+<td>Mona Darling</td>
+<td>200</td>
+<td><a href="">Update</a></td>
+<td><a href="">Delete</a></td>
+<td><a href="">5</a></td>
+</tr>
+
+
+
+
+<tr>
+<td>Detch wish</td>
+<td>Benny Balcon</td>
+<td>400</td>
+<td><a href="">Update</a></td>
+<td><a href="">Delete</a></td>
+<td><a href="">2</a></td>
+</tr>
+
+
+
+<tr>
+<td>Detch Note</td>
+<td>Hirashi Mashashi</td>
+<td>400</td>
+<td><a href="">Update</a></td>
+<td><a href="">Delete</a></td>
+<td><a href="">0</a></td>
+</tr>
+
+
+
+
+<tr>
+<td>Pagla Hawwa Badol Dine</td>
+<td>Hirashi Mashashi</td>
+<td>400</td>
+<td><a href="">Update</a></td>
+<td><a href="">Delete</a></td>
+<td><a href="">0</a></td>
+</tr>
+
+
+
+<tr>
+<td>Dameto Cosito</td>
+<td>Menoca Mathai dillo Ghomta</td>
+<td>400</td>
+<td><a href="">Update</a></td>
+<td><a href="">Delete</a></td>
+<td><a href="">9</a></td>
+</tr>
+
+
+
+<tr>
+<td>Tu lawda Hai</td>
+<td>Gandu mall</td>
+<td>400</td>
+<td><a href="">Update</a></td>
+<td><a href="">Delete</a></td>
+<td><a href="">1</a></td>
+</tr>
+
+
+<tr>
+<td>tare Zmain Par</td>
+<td>Ammer Khan</td>
+<td>800</td>
+<td><a href="">Update</a></td>
+<td><a href="">Delete</a></td>
+<td><a href="">4</a></td>
+</tr>
+
+
+</tbody>
+
+</table><!--here coding for table end here-->
+
+
+
+
+
+
+</div>
+
+
+</div>
+
+<script type="text/javascript" src="tabledescscript.js"></script>
+
+<script type="text/javascript">
+/*	
+var table=document.getElementById("bookTable");
+var tab_desc1=document.getElementsByClassName('table_desc_box')[0];
+var tot_book=tab_desc1.getElementsByTagName('h3');
+tot_book[0].innerText=table.rows.length-1;
+
+
+
+
+
+
+var i;//here coding for total comment count start//
+var rows=table.rows;
+var Nreq=0;
+for(i=1;i<table.rows.length;++i){
+
+req=rows[i].getElementsByTagName('td')[5];
+Nreq=Nreq+Number(req.innerText);
+
+
+}
+var tab_desc2=document.getElementsByClassName('table_desc_box')[4];
+var tot_com=tab_desc2.getElementsByTagName('h3')[0];
+tot_com.innerText=Nreq;   
+                        //here total comment of a single book ended her //
+
+
+var tsi=document.getElementById("table_search_input");  // tsi means table search input // // her we create a opertion for search book into table
+tsi.oninput = function(){
+var i;
+var table=document.getElementById("bookTable");
+var rows=table.rows;
+var filter=tsi.value.toUpperCase();
+//table.insertBefore(rows[2],rows[1]);
+//alert(tsi.value);
+var data=0;
+for(i=1;i<rows.length;++i){
+var cell=rows[i].getElementsByTagName("td")[0];
+data=cell.innerText.toUpperCase();
+
+if(data.indexOf(filter) > -1)
+rows[i].parentNode.insertBefore(rows[i],rows[1]);
+
+
+}
+
+
+}
+
+
+
+
+var re_but=document.getElementById("RefreshButton");
+
+re_but.onclick = function(){
+
+location.reload();
+
+
+}
+
+*/
+
+
+</script>
+
+
+
+</body>
+</html>

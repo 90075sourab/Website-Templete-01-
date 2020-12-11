@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
+
+body{
+  
+ // margin:0;
+  //padding:0;
+ // box-sizing:border-box;
+  background-color:E1E5EA;
+}
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+.fullwrap{
+width:100%;
+height:auto;   
+
+
+}
+
+.wrap {
+  width: 100%;
+  height:auto; 
+}
+
+
+.comment_input_section{
+  width:80%;
+  margin:30px auto;
+  border:1px solid #777;
+  padding:30px;
+}
+
+
+.comment_form{
+  //border:1px solid yellow;
+}
+.comment_input_section .comment_form label{
+  font-size:15px;
+  font-family: 'Noto Sans', sans-serif;
+  color:#333;
+}
+.comment_input_section .comment_form input[type=text],textarea{
+  width:100%;
+  padding:12px;
+  border:1px solid #ccc;
+  border-radius:4px;
+  margin:8px 0px 16;
+  resize:vertical;
+  font-family: 'Noto Sans', sans-serif;
+  font-size:15px; 
+}
+
+
+.comment_input_section .comment_form button{
+  padding:8px 10px;
+   font-family: 'Noto Sans', sans-serif;
+  font-weight:bold;
+  color:white;
+  background-color:008777;
+  border:none;
+  border-radius:4px 
+}
+
+.comment_heading_section{
+  width:80%;
+  margin:10px auto;
+  //border:1px solid red;
+  display:flex;
+  justify-content:flex-start;
+  border-bottom:2px solid;
+  border-color:#777;
+  
+}
+
+.comment_head_title{
+ //order:1px solid green;
+  background-color:#777;
+   
+}
+.comment_head_title h4{
+  padding:10px;
+  color:FFFFFF;
+}
+
+.comment_section{
+  width:80%;
+  //border:1px solid grey;
+  margin:auto;
+  display:flex;
+  flex-direction:column;
+  background-color:#fff;
+}
+.comment_box{ 
+ border-bottom:1px solid #999;
+ display:flex;
+ padding:30;
+ align-items:flex-start; 
+}
+
+.comment_box .comment_img{
+   border:1px solid green;
+   display:flex;
+   border-radius:100px;
+  position:relative;
+  top:-30px;
+  
+}
+.comment_box .comment_img img{
+  width:60px;
+  height:60px;
+ 
+
+}
+.comment_box .comment_desc{
+  display: flex;
+  align-items:center;
+}
+.comment_box .comment_desc h4{
+   padding:10 
+}
+.comment_box .comment_desc p{
+  
+}
+
+.comment_text{
+  padding:;
+  word-wrap:break-word;
+  //flex-basis:90%px;
+  border:1px solid;
+}
+
+
+
+
+.comment_box:nth-child(even) .comment_desc_box .comment_img{
+  background-color:EB5972;
+}
+.comment_box:nth-child(odd) .comment_desc_box .comment_img{
+  background-color:F6BE5D;
+}
+
+.comment_box:last-child{
+  border:none;
+}

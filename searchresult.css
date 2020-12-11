@@ -1,0 +1,235 @@
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600&display=swap');
+body{
+  font-family: 'Noto Sans', sans-serif;
+ // font-weight:600;
+   background-color:E1E5EA;
+}
+
+.fullwrap{
+  width:100%; 
+}
+.wrap{
+  width: 100%;
+  
+}
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.search_section{
+  width:100%;
+  height:70px;
+  box-shadow:0px 0px 10px rgba(0,0,0,.5);
+  background-color: FFF
+ 
+}
+.search_section form{
+  display: flex;
+  width:100%;
+  padding:10px 30px 8;
+  justify-content:center;
+  height:70px;
+  align-items:flex-end; 
+  
+}
+.search_section input{
+  flex-basis:100%;
+ //float:left;
+  height:40px ;
+  border:none;
+  border-bottom:2px solid ;
+  border-color: 74C94F;
+  display: block;
+  font-size:17px;
+  font-weight:;
+  color:#888;
+  
+  padding:10px ; 
+    //font-weight:bolder;
+ 
+}
+
+.search_section button{
+  width:30px; 
+   height:40px;
+  //float:left;
+  border:none;
+  font-style: italic;
+  background-color:#fff;
+  background-size:40px;
+    border-bottom:2px solid ;
+  border-color: 74C94F;
+  font-size:24px ;
+    display:block;
+  cursor:pointer;
+
+}
+.search_section button img{
+  width:20px 
+}
+
+.search_result_section{
+  width:80%;
+  margin:30px auto; 
+  display:flex;
+ flex-direction:row;
+  background-color:FFFFFF;
+   // background-color:E1E5EA;
+   //border:1px solid green
+}
+.searchresult_sidebar_section{
+  flex-basis:30%;
+  height:90vh; 
+  padding:20px;
+  //border:1px solid #999;
+}
+.search_result_content_section{
+  flex-basis:70%;
+   
+  
+}
+
+.search_desc_box h5{
+  line-height:40px;
+  border-bottom:1px solid;
+  color:#555;
+  border-color:#ccc;
+  font-size:15px 
+  
+}
+
+.search_desc_box{
+  display:flex;
+  flex-direction:column;
+  //align-items:center;
+  width:300px;
+  float:right;
+  margin:30px 8px;
+font-family: 'Fira Sans', sans-serif; 
+}
+.search_desc_box:first-child{
+  margin-top:0; 
+}
+.search_desc_box >p{
+  text-align:left;
+padding:10px 0 4px; 
+  color:394F8D;
+  font-size:14px;
+  //color: 74C94F;
+  color:red;
+}
+.search_desc_cont{
+  display: flex;
+  flex-direction:row;
+  width:100%;
+  justify-content:space-between;
+  color:#777;
+  font-size:14px;
+   
+}
+.search_result_content_section{
+  display:flex;
+  flex-direction:column;
+  padding:20px 30px 
+
+}
+.search_result_content_section > h4{
+  text-align:left; 
+  //padding:17px 15px 15px;
+  line-height:40px;
+  color:#555;
+  font-size:14px;
+  border-bottom:1px solid;
+  font-weight:bold;
+  border-color:#ccc;
+}
+.search_result_box{
+  display:flex;
+  flex-direction:row;
+   padding:30px;
+  width:100%;
+  justify-content: space-around;
+  //border-bottom:1px solid #999;
+  
+  
+}
+.search_result_img{
+  margin:0px 20px;
+  filter:blur(.8px);
+}
+.search_result_details{
+  width:300px 
+}
+.search_result_details table{
+    border-collapse:collapse;
+  //border-left:1px solid;
+   
+}
+.search_result_details table tr td{
+  padding:0px 40px 0px 0px;
+  color:#888;
+  font-size:13px; 
+ font-family: 'Fira Sans', sans-serif;
+   line-height:2.3; 
+  
+}
+.search_result_details > h4{
+  //line-height:40px;
+  font-size:22.5px;
+  color:#000;
+  line-height:2.3;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing:1.8px;
+  word-spacing:8px 
+}
+.search_result_bottom_section{
+  display: flex;
+  flex-direction:row;
+  justify-content:space-between;;
+  padding:5px 0;
+  border-top:2px solid;
+  border-color:#ccc;
+  margin:5px 0;
+}
+.search_result_bottom_section h4{
+  color:#444;
+   line-height:1.6;
+  font-size:16;
+  letter-spacing:1.18px 
+}
+.search_result_bottom_section p{
+  color:green;
+  font-weight:bold;
+  font-size:16px;
+ // text-shadow:0px 0px .5px green; 
+  line-height:.8; 
+}
+.search_result_bottom_section button{
+  width:120px;
+  height:30px;
+  border:none;
+   background-color:008777;
+  //border-top:1px solid purple;
+  color:white;
+  font-size:13px;
+  font-weight:bold;
+  //text-shadow:0px 0px 3px rgba(0,0,0,1);
+  border-radius:5px;
+  //box-shadow:0px 1px 4px rgba(0,0,0,.5);
+  font-family: 'Fira Sans', sans-serif; 
+}
+
+.search_result_content_section .commenton_book_desc{
+  //align-self:flex-start ;
+  font-size:14px;
+  word-spacing:5px;
+  line-height:5;
+  color:32B4C7;
+  border-bottom:1px solid #999;
+ // font-weight:bold;
+  font-family: 'Fira Sans', sans-serif;
+  word-spacing:7px 
+}

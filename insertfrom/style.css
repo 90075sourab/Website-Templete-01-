@@ -1,0 +1,73 @@
+body{
+ 
+   background-color:F6F6F7;
+
+}
+
+.insertform_holder{
+  
+  
+  width:800px;
+  height:75vh;
+  //background-color:red;
+  display:flex;
+  margin: 50px auto;
+  box-shadow:2px 2px 10px rgba(0,0,0,.5); 
+   border-radius:10px;
+  overflow:hidden 
+}
+
+.inertform_img{
+  background-image:url('bamboo.jpg');
+  flex-basis:40%;
+  height:100%;
+  background-size:cover;
+  border-radius:10px 0px 0px 10px;
+  
+}
+.insertform_cont{
+    flex-basis:60%;
+  background-color: FFFFFF;
+
+ 
+}
+
+.insertform_cont .insertfrom_input h2{
+  text-align:left;
+  padding:30px 0px;
+  line-height:10px 
+}
+.insert_form input{
+  width:100%;
+  height:45px;
+  display:block;
+  border:1px solid #7777;
+}
+.insert_form  p{
+  display:block;
+  float:left;
+  margin:5px 0px; 
+ color:#333;
+}
+
+.insertfrom_input{
+  width:70%;
+  margin:27px auto;
+  position: relative;
+}
+
+.insert_form .insertfrom_input button{
+  display: block;
+  width:90px;
+  height:33px;
+  border-radius:8px;
+  border:none;
+  background-color:95BF47;
+  color:FFFFFF;
+  font-weight:bold;
+  position:absolute;
+  right:0px;
+ margin:20px 0px 
+  
+  
+}

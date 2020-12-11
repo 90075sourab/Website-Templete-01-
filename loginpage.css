@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600&display=swap');
+
+.login_page_contain_section{
+  width:80%;
+  margin:auto; 
+}
+
+.login_page_conatin_box{
+  display:flex;
+  padding:40px 20px;
+ // border:1px solid gray;
+}
+
+.login_page_conatin_box .contain_image{
+  flex-basis:40%;
+  //border:1px solid red;
+}
+.login_page_conatin_box .contain_image img{
+  width:100% 
+}
+.login_page_conatin_box .contain_article{
+  flex-basis:60%;
+  padding:10px 30px 10px;
+  //border:1px solid blue;
+}
+.login_page_conatin_box .contain_article h2{
+  color:#444;
+  font-size:40px;
+   font-family: 'Open Sans', sans-serif;
+  line-height:1.6;
+}
+.login_page_conatin_box .contain_article p{
+  color:999999;
+  font-family: 'Open Sans', sans-serif;
+  line-height:1.6;
+  font-size:15px 
+}
+
+.footer_section{
+  width:100%;
+  background:#444;
+  height:15%;
+  margin:15 0px 0px 
+}

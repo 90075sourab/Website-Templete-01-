@@ -1,0 +1,181 @@
+
+<html>
+<head>
+	<title>this is sample website</title>
+	<link rel="stylesheet" type="text/css" href="searchresult.css">
+</head>
+<body>
+
+	<div class="fullwrap">
+		
+<div class="wrap">
+	
+
+<div class="search_section">
+	
+	<form class="search_form">
+			<button type="submit"><img src="searchicon.png"></button>
+		<input type="text" name="" placeholder="Search books here..." id="search_input">
+	
+<button id="search_clear">x</button>
+
+
+	</form>
+</div>
+
+
+</div>
+
+
+
+	</div>
+
+
+
+
+	<div class="fullwrap">
+		
+<div class="wrap search_result_section">
+	
+
+<div class="searchresult_sidebar_section">
+	
+
+<div class="search_desc_box">
+	
+<h5>Subject wise</h5>
+<p>All</p>
+<div class="search_desc_cont"><p>subject</p><p>30</p></div>
+
+
+</div>
+
+<div class="search_desc_box">
+	
+<h5>Class wise</h5>
+<p>All</p>
+<div class="search_desc_cont"><p>classess and other courses</p><p>30</p></div>
+
+
+</div>
+
+
+<div class="search_desc_box">
+	
+<h5>Other categories</h5>
+<p>All</p>
+<div class="search_desc_cont"><p>Other subjects</p><p>30</p></div>
+
+
+</div>
+
+
+
+
+
+
+</div>		
+
+<div class="search_result_content_section"><!--this is comment_cont_section which holds all search_result_box section this will not be looped in php-->
+	
+<h4>Showing results 15 found</h4>
+
+<div class="search_result_box">        <!--you will loop php from here this is search_result box which holds the infromation of single book-->
+	<p>Post on 15 Aughst,2019</p>
+<div class="search_result_img"><img src="bookalter.jpeg"></div>
+
+<div class="search_result_details">
+	
+<h4>Sorol bangla itihash</h4>
+<table>
+	
+<tr><td>subject</td><td>bengali</td></tr>
+<tr><td>class</td><td>Eight</td></tr>
+<tr><td>Author</td><td>Eight</td></tr>
+<tr><td>Publication</td><td>santra</td></tr>
+</table>
+<div class="search_result_bottom_section">
+	
+<div class="price_tag"><h4>Woner expectaion</h4><p>200/-</p></div>
+<button>Comment</button>
+</div>
+</div>
+
+
+
+</div>
+<p class="commenton_book_desc">All 15 comment on this book</p> <!--you will loop php end here-->
+
+
+
+
+
+
+<div class="search_result_box">        <!--you will loop php from here this is search_result box which holds the infromation of single book-->
+	
+<div class="search_result_img"><img src="bookalter.jpeg"></div>
+
+<div class="search_result_details">
+	
+<h4>Dynamic physics</h4>
+<table>
+	
+<tr><td>subject</td><td>Physics</td></tr>
+<tr><td>class</td><td>Twelleve</td></tr>
+<tr><td>Author</td><td>Bhuiyan dhar</td></tr>
+<tr><td>Publication</td><td>Chaya prakashani</td></tr>
+</table>
+<div class="search_result_bottom_section">
+	
+<div class="price_tag"><h4>Woner expectaion</h4><p>500/-</p></div>
+<button>Comment</button>
+</div>
+</div>
+
+
+
+</div>
+<p class="commenton_book_desc">All 41 comment on this book</p> <!--you will loop php end here-->
+
+
+
+
+
+
+</div><!--this is comment_cont_section which holds all search_result_box section this will not be looped in php-->
+
+
+
+</div><!--this is half wrap which named search_result_section hold the seach analysis and and all search result-->
+
+
+
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<script type="text/javascript">
+		var s_clear=document.getElementById('search_clear');
+        var s_input=document.getElementById('search_input');
+
+
+
+		s_clear.onclick = function(){
+			 s_input.value='';
+			
+		}  
+	</script>
+
+</body>
+</html>
